@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+    position: relative;
+    
+  
+
+}
+
+.body{
+    background-color: blue;
+    width: 100%;
+    
+}
+
+.display img{
+
+ position: absolute;
+ width: 350px;
+ height: 415px;
+    border: 5px solid rgba(245, 245, 245, 0.703);
+ border-radius: 10px 10px 10px 10px;
+ top: 105px;
+ left: 545px;
+
+}
+.ceo h3{
+    position: absolute;
+    top: 414px;
+    left: 635px;
+ color: whitesmoke;
+
+}
+
+.work h3{
+    position: absolute;
+    color:whitesmoke;
+    top: 439px;
+    left: 646px;
+}
+
+.icon .facebookk{
+    position: absolute;
+    color:whitesmoke;
+    top: 469px;
+    left: 618px;
+    font-size: 25px;
+}
+
+.icon .twitterr{
+    position: absolute;
+    color:whitesmoke;
+    top: 470px;
+    left: 668px;
+
+    font-size: 25px;
+}
+
+.icon .instagramm{
+    position: absolute;
+    color:whitesmoke;
+    top: 471px;
+    left: 718px;
+    font-size: 25px;
+}
+
+.icon .youtubee{
+    position: absolute;
+    color:whitesmoke;
+    top: 472px;
+    left: 764px;
+    font-size: 25px;
+}
+
+.icon .carett{
+    position: absolute;
+    color:whitesmoke;
+    top: 502px;
+    left: 701px;
+    font-size: 45px;
+}
+
+.cancel {
+    position: absolute;
+    color: whitesmoke;
+    top: 556px;
+    left: 550px;
+    
+    
+  
+}
+
+.cancel button{
+    padding: 9px 148px 9px 145px;
+    border: whitesmoke;
+    border-radius: 63px 65px 65px 63px; 
+    font-size: 15px;
+}

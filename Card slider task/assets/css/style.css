@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.display{
+
+    height: 737px;
+    background-color: #cccccc;
+    background-image: radial-gradient(red, yellow);
+    margin-left: 200px
+  ;
+}
+
+.box{
+    position: relative;
+    
+}
+
+.slide{
+    position: absolute;
+    border: 1px solid red;
+    width: 225px;
+    height: 226px;
+    top: 185px;
+    left: 200px;
+    border-radius: 10px 10px 10px 10px;
+    background-image: linear-gradient(to right, red , red);
+  
+}
+.lorem_slide{
+    position: absolute;
+    border: 1px solid whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    width: 719px;
+    height: 332px;
+    top: -54px;
+    left: 21px;
+    background-color: whitesmoke;
+    z-index: -1;
+}
+
+.lorem_slide .time{
+    position: absolute;
+    top: 83px;
+    right: 347px;
+}
+
+.lorem_slide .lorem{
+    position: absolute;
+    top: 110px;
+    left: 249px;
+
+}
+
+.lorem_slide .text{
+    position: absolute;
+    top: 142px;
+    left: 247px;
+}
+
+.click button{
+    position: absolute;
+    padding: 9px 29px 12px 24px;
+    border: whitesmoke;
+    border-radius: 63px 65px 65px 63px;
+    font-size: 15px;
+    top: 199px;
+    left: 251px;
+    background-image: linear-gradient(to right, red , red);
+}
+
+.scroll{
+    position: absolute;
+    top: 140px;
+    left: 684px;
+    font-size: 43px;
+    color: red;
+}
+
+
